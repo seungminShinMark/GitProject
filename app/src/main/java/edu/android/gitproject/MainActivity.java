@@ -18,5 +18,7 @@ public class MainActivity extends AppCompatActivity {
         
         TextView textView = findViewById(R.id.textView);
         button = findViewById(R.id.button);
+
+        textView.setText("GitHub");
     }
 }
