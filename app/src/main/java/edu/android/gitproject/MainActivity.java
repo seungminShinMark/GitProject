@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.widget.TextView;
 import android.widget.Button;
 
+
 public class MainActivity extends AppCompatActivity {
      
 
@@ -15,10 +16,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        
+        TextView tvn = findViewById(R.id.tvn);
         TextView textView = findViewById(R.id.textView);
         button = findViewById(R.id.button);
 
         textView.setText("GitHub");
+         tvn.setText("Hello!")
     }
 }
